@@ -15,7 +15,7 @@ jobs:
     name: build and push Docker image
     runs-on: ubuntu-latest
     steps: 
-      # 1 
+      # 1  prueba
       - uses: actions/checkout@v4
       # 2  
       - name: Login to DockerHub
