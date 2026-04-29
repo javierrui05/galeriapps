@@ -11,7 +11,7 @@ def homepage():
     x = "variable no usada para error linter"
     the_time = datetime.now().strftime("%A, %d %b %Y %H:%M")
 
-    # Render HTML with variable
+    # Render HTML with variable 1
     return render_template("index.html", the_time=the_time, tema="whale", 
                            alto="600", ancho="920")
 
